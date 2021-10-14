@@ -1,8 +1,12 @@
 import React from "react";
+import GlobalStyles from "./assets/style/GlobalStyles";
 
 function App() {
   return (
-    <h1> Hello Gmail </h1>
+    <>
+      <GlobalStyles />
+      <h1> Hello Gmail </h1>
+    </>
   );
 }
 
