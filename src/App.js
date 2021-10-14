@@ -1,11 +1,12 @@
 import React from "react";
 import GlobalStyles from "./assets/style/GlobalStyles";
+import Layout from "./components/Layout";
 
 function App() {
   return (
     <>
       <GlobalStyles />
-      <h1> Hello Gmail </h1>
+      <Layout />
     </>
   );
 }
