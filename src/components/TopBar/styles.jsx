@@ -8,7 +8,7 @@ import { Search } from "styled-icons/bootstrap";
 
 export const Container = styled.div`
   width: 100%;
-  padding: 2rem;
+  padding: 0.5rem 2rem;
   grid-area: TB;
   display: flex;
   align-items: center;
